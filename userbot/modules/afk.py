@@ -64,10 +64,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"__Going AFK!__\
+        await afk_e.edit(f"__pamit dulu slur!__\
         \nReason: `{string}`")
     else:
-        await afk_e.edit("__Going AFK!__")
+        await afk_e.edit("__izin pamit bang!__")
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nYou went AFK!")
     ISAFK = True
@@ -126,7 +126,7 @@ async def mention_afk(mention):
     user.username = user.first_name
     back_alivee = datetime.now()
     afk_end = back_alivee.replace(microsecond=0)
-    afk_since = "a while ago"
+    afk_since = "gw pamit dulu..."
     if mention.message.mentioned and not (await mention.get_sender()).bot:
         if ISAFK:
             now = datetime.now()
@@ -235,7 +235,7 @@ async def afk_on_pm(sender):
             if sender.sender_id not in USERS:
                             if AFKREASON:
                                 await sender.reply(f"{str(choice(AFKSTR))}\n"
-                f"\n\nI'm AFK right now since {afk_since}"
+                f"\n\nGw lagi off.. {afk_since}"
                 f"\nReason: `{AFKREASON}`")
                             else:
                                 await sender.reply(f"Sorry, but [{user.first_name}](tg://user?id={user.id}) is AFK!")
@@ -248,7 +248,7 @@ async def afk_on_pm(sender):
                         \n**Leave your Message here and I'll go back soon..**\
                             \nAFK Reason: `{AFKREASON}`")
                     else:
-                        await sender.reply(f"Sorry, but [{user.first_name}](tg://user?id={user.id}) is AFK!")
+                        await sender.reply(f"Maaf, [{user.first_name}](tg://user?id={user.id}) sedang AFK!")
                 USERS[sender.sender_id] = USERS[sender.sender_id] + 1
                 COUNT_MSG = COUNT_MSG + 1
 
