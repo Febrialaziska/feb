@@ -16,9 +16,9 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    "I'm busy right now. Please talk in a bag and when I come back you can just give me the bag!",
-    "I'm away right now. If you need anything, leave a message after the beep:\n`beeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeep`!",
-    "You missed me, next time aim better.",
+    "Maaf gw lagi off, coba hubungi nanti aja ya...",
+    "Sorry gw lagi off, kalau penting pm aja",
+    "Gw lagi sibuk lain kali aja...",
     "I'll be back in a few minutes and if I'm not...,\nwait longer.",
     "I'm not here right now, so I'm probably somewhere else.",
     "Roses are red,\nViolets are blue,\nLeave me a message,\nAnd I'll get back to you.",
@@ -28,8 +28,8 @@ AFKSTR = [
     "Hello, welcome to my away message, how may I ignore you today?",
     "I'm away over 7 seas and 7 countries,\n7 waters and 7 continents,\n7 mountains and 7 hills,\n7 plains and 7 mounds,\n7 pools and 7 lakes,\n7 springs and 7 meadows,\n7 cities and 7 neighborhoods,\n7 blocks and 7 houses...\n\nWhere not even your messages can reach me!",
     "I'm away from the keyboard at the moment, but if you'll scream loud enough at your screen, I might just hear you.",
-    "I went that way\n---->",
-    "I went this way\n<----",
+    "Gw lagi anu\n---->",
+    "Gw mau anu\n<----",
     "Please leave a message and make me feel even more important than I already am.",
     "I am not here so stop writing to me,\nor else you will find yourself with a screen full of your own messages.",
     "If I were here,\nI'd tell you where I am.\n\nBut I'm not,\nso ask me when I return...",
