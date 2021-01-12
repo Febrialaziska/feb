@@ -19,7 +19,7 @@ from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
-    "Packing this sticker..",
+    "Punten, gw nyuri stickernya...",
 ]
 
 
@@ -62,10 +62,10 @@ async def kang(args):
             is_anim = True
             photo = 1
         else:
-            await args.edit("`Unsupported File!`")
+            await args.edit("`gak support bambang!`")
             return
     else:
-        await args.edit("`I can't kang that...`")
+        await args.edit("`gak bisa di save ini cuk...`")
         return
 
     if photo:
